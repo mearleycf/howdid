@@ -1,4 +1,7 @@
-# Howdid
+# howdid
+A list of movies that have appeared on the How Did This Get Made? podcast. 
+
+## Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.4.
 
