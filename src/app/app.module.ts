@@ -11,15 +11,12 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { environment } from '../environments/environment';
 
 // Project
+import { SharedModule } from './shared/shared.module';
 import { MaterialComponentsModule } from './components/material-components/material-components.module';
-import { AppLayoutHeaderComponent } from './shared/layout/app-layout-header/app-layout-header.component';
-import { AppLayoutFooterComponent } from './shared/layout/app-layout-footer/app-layout-footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AppLayoutHeaderComponent,
-    AppLayoutFooterComponent,
   ],
   imports: [
     BrowserModule,
@@ -27,6 +24,7 @@ import { AppLayoutFooterComponent } from './shared/layout/app-layout-footer/app-
     BrowserAnimationsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    SharedModule,
     MaterialComponentsModule,
   ],
   providers: [],
