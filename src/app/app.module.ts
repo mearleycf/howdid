@@ -12,14 +12,14 @@ import { environment } from '../environments/environment';
 
 // Project
 import { MaterialComponentsModule } from './components/material-components/material-components.module';
-import { AppLayoutHeaderComponent } from './app-layout-header/app-layout-header.component';
-import { AppLayoutFooterComponent } from './app-layout-footer/app-layout-footer.component';
+import { AppLayoutHeaderComponent } from './shared/layout/app-layout-header/app-layout-header.component';
+import { AppLayoutFooterComponent } from './shared/layout/app-layout-footer/app-layout-footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AppLayoutHeaderComponent,
-    AppLayoutFooterComponent
+    AppLayoutFooterComponent,
   ],
   imports: [
     BrowserModule,
