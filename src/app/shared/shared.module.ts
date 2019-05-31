@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
+import { MaterialComponentsModule } from '../components/material-components/material-components.module';
+import { ComponentsModule } from '../components/components.module';
 
 // Shared Components
 import { AppLayoutHeaderComponent } from './layout/app-layout-header/app-layout-header.component';
@@ -19,6 +21,8 @@ import { AppLayoutFooterComponent } from './layout/app-layout-footer/app-layout-
     HttpClientModule,
     ReactiveFormsModule,
     RouterModule,
+    MaterialComponentsModule,
+    ComponentsModule,
   ],
   exports: [
     FormsModule,
