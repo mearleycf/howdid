@@ -14,6 +14,7 @@ import { environment } from '../environments/environment';
 import { SharedModule } from './shared/shared.module';
 import { MaterialComponentsModule } from './components/material-components/material-components.module';
 import { ComponentsModule } from './components/components.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ComponentsModule } from './components/components.module';
     SharedModule,
     MaterialComponentsModule,
     ComponentsModule,
+    FlexLayoutModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

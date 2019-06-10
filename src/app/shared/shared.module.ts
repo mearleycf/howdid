@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { MaterialComponentsModule } from '../components/material-components/material-components.module';
 import { ComponentsModule } from '../components/components.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 // Shared Components
 import { AppLayoutHeaderComponent } from './layout/app-layout-header/app-layout-header.component';
@@ -23,6 +24,7 @@ import { AppLayoutFooterComponent } from './layout/app-layout-footer/app-layout-
     RouterModule,
     MaterialComponentsModule,
     ComponentsModule,
+    FlexLayoutModule,
   ],
   exports: [
     FormsModule,
@@ -31,6 +33,7 @@ import { AppLayoutFooterComponent } from './layout/app-layout-footer/app-layout-
     RouterModule,
     AppLayoutFooterComponent,
     AppLayoutHeaderComponent,
+    FlexLayoutModule,
   ]
 })
 export class SharedModule { }
