@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MaterialComponentsModule } from './material-components/material-components.module';
+import { SharedModule } from '../shared/shared.module';
 
 // Components
 import { HomeComponent } from './home/home.component';
@@ -18,6 +19,7 @@ import { MovieComponent } from './movie/movie.component';
   imports: [
     CommonModule,
     MaterialComponentsModule,
+    SharedModule,
   ],
   exports: [
     HomeComponent,

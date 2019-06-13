@@ -4,7 +4,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 import { MaterialComponentsModule } from '../components/material-components/material-components.module';
-import { ComponentsModule } from '../components/components.module';
+// import { ComponentsModule } from '../components/components.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 // Shared Components
@@ -25,7 +25,7 @@ import { LogoComponent } from './logo/logo.component';
     ReactiveFormsModule,
     RouterModule,
     MaterialComponentsModule,
-    ComponentsModule,
+    // ComponentsModule,
     FlexLayoutModule,
   ],
   exports: [

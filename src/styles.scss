@@ -2,3 +2,38 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+// styling movie card
+
+mat-card.movie-card {
+    max-width: 20vw;
+    height: auto;
+    margin: 1rem;
+    padding: .25rem;
+
+    & mat-card-title.movie-title {
+        font-size: 1.2rem;
+    }
+
+    & .poster {
+        position: relative;
+        max-width: 92px;
+    }
+    & .movie-overview {
+        font-size: .75rem;
+        line-height: .85rem;
+        height: 3.4rem;
+        overflow: hidden;
+        position: relative;
+    }
+    & .movie-overview:after {
+        content: "";
+        text-align: right;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 70%;
+        height: .85rem;
+        background: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) 50%)
+    }
+}
