@@ -6,12 +6,14 @@ import { MaterialComponentsModule } from './material-components/material-compone
 import { HomeComponent } from './home/home.component';
 import { MoviesComponent } from './movies/movies.component';
 import { EpisodesComponent } from './episodes/episodes.component';
+import { MovieComponent } from './movie/movie.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
     MoviesComponent,
     EpisodesComponent,
+    MovieComponent,
   ],
   imports: [
     CommonModule,

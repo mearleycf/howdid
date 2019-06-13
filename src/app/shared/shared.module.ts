@@ -35,6 +35,7 @@ import { LogoComponent } from './logo/logo.component';
     RouterModule,
     AppLayoutFooterComponent,
     AppLayoutHeaderComponent,
+    LogoComponent,
     FlexLayoutModule,
   ]
 })
