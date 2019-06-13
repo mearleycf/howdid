@@ -3,6 +3,13 @@
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
+// header
+app-layout-header mat-toolbar a {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
 // styling movie card
 
 mat-card.movie-card {

@@ -1,9 +1,19 @@
 <mat-toolbar color="primary">
     <div fxFlexFill="" fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px grid">
-        <app-logo></app-logo>
-        <div>Movies</div>
-        <div>Episodes</div>
-        <div>Actors</div>
-        <div>Special Guests</div>
+        <a routerLink="/">
+            <app-logo></app-logo>
+        </a>
+        <div>
+            <a routerLink="/movies">Movies</a>
+        </div>
+        <div>
+            <a routerLink="/episodes">Episodes</a>
+        </div>
+        <div>
+            <a routerLink="/actors">Actors</a>
+        </div>
+        <div>
+            <a routerLink="/guests">Special Guests</a>
+        </div>
     </div>
 </mat-toolbar>
