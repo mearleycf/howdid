@@ -12,6 +12,12 @@ import { AppLayoutHeaderComponent } from './layout/app-layout-header/app-layout-
 import { AppLayoutFooterComponent } from './layout/app-layout-footer/app-layout-footer.component';
 import { LogoComponent } from './logo/logo.component';
 
+// Services
+import { TheMovieDbService } from './services/the-movie-db.service';
+
+// Models
+import { Movie } from './models/movie';
+
 @NgModule({
   declarations: [
     AppLayoutFooterComponent,
@@ -27,6 +33,10 @@ import { LogoComponent } from './logo/logo.component';
     MaterialComponentsModule,
     // ComponentsModule,
     FlexLayoutModule,
+  ],
+  providers: [
+    TheMovieDbService,
+    Movie,
   ],
   exports: [
     FormsModule,

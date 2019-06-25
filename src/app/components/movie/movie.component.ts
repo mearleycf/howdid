@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { TheMovieDbService } from '../../shared/services/the-movie-db.service';
+
 @Component({
   selector: 'app-movie',
   templateUrl: './movie.component.html',
@@ -24,9 +26,10 @@ export class MovieComponent implements OnInit {
     return posterPath;
   }
 
-  constructor() { }
+  constructor(private theMovieDbService: TheMovieDbService) { }
 
   ngOnInit() {
+
   }
 
 }
